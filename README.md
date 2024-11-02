@@ -1,4 +1,5 @@
-# ECG Analysis
+
+# ECG Annotation Analysis
 
 This project provides a basic analysis of ECG signals by extracting and counting different types of cardiac event annotations. 
 It is useful for studying patterns in cardiac activity and serves as a foundation for more advanced ECG data analysis projects.
@@ -33,18 +34,18 @@ pip install wfdb
 3. After selecting the file, the script will load the ECG data and count the annotation occurrences.
 4. The summary of annotation types and their occurrences will be displayed in the console.
 
-## Example
+## Example Outputs
 
-When running the script, you may see output like this:
+Below are some example results from the ECG signal analysis:
 
-```
-Annotation Summary:
-Annotation 'N': 2239 occurrences
-Annotation 'A': 33 occurrences
-Annotation 'V': 1 occurrence
-```
+### ECG Signal with Annotations
+![ECG Signal with Annotations](images/ECG%20Signal%20with%20Annotations.png)
 
-This indicates the number of each type of cardiac event detected in the ECG file.
+### Distribution of R-R Intervals
+![Distribution of R-R Intervals](images/Distribution%20of%20R-R%20Intervals.png)
+
+### Signal Fragments with Long R-R Intervals
+![Signal Fragments with Long R-R Intervals](images/Signal%20Fragments%20with%20Long%20R-R%20Intervals.png)
 
 ---
 
